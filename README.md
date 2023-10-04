@@ -1,2 +1,2 @@
-# Java
-Estudos de Java
+# MeusEstudos
+Estudos de linguagens de programação
