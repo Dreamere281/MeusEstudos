@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(150deg, rgb(0, 139, 12), rgb(0, 65, 139)) ;
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite alternate;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@keyframes gradient{
+    0%{
+    background-position: 0% 100%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+legend{
+    font-weight: bold;
+}
+
+div{
+    color: rgb(253, 253, 253);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.botoes button{
+
+    padding: 4px 10px;
+    background-color: rgb(197, 197, 197);
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .botoes button:hover, button:active {
+    background-color: rgb(233, 195, 195);
+  }
