@@ -5,3 +5,4 @@ function sum () {
 }
 
 var mensagem = "oi"
+//teste
