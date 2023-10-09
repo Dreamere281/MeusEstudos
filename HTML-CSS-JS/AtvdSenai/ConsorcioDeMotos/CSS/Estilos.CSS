@@ -1,0 +1,86 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: red;
+    color: white;
+
+}
+#title{
+    display: flex;
+    flex-direction: row;
+    
+}
+li{
+    display: inline-block;
+    flex-direction: row;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.motona{
+    width: 600px;
+}
+#motinha{
+    width: 60px;
+    
+}
+main{
+    flex-direction: row;
+    margin-top: 40px;
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 35px;
+    
+}
+input{
+    border-radius: 30px;
+    margin: 6px;
+    height: 32px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+#calcul{
+    background-color: red;
+    width: 130px;
+    color: white;
+    cursor: pointer;
+}
+#calcul:hover{
+
+background-color: black;
+color: white;
+
+}
+h2{
+    font-size: 50px;
+    line-height: 50px;
+}
+p{
+    max-width: 500px;
+}
+a{
+    color: white;
+
+}
+a:hover{
+    color: black;
+}
+
+#resul #TextoResultado {
+    font-size: 30px;
+}
+

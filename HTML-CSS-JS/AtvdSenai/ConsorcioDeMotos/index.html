@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Concessionária</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href='https://cdn-icons-png.flaticon.com/512/3664/3664538.png' type="image/x-icon">
+    <link rel="stylesheet" href="CSS/Estilos.CSS">
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1> Concessionária Motos</h1>   <img src="https://cdn-icons-png.flaticon.com/512/3988/3988406.png" id="motinha">
+        
+        </div>
+        <ul>
+            <a href="#"><li>Contato</li></a>
+            <a href="financiamento.html"><li>Tipos de compra</li></a>
+            <a href="#"><li>Modelos</li></a>
+            <a href="#"><li>venda seu veiculo</li></a>
+        </ul>
+    </header>
+    <main>
+        <aside>
+            <h2>Venha buscar seu novo veiculo com a gente!</h2>
+            <h2>Financiamento:</h2>
+            <form id="calculator">
+                <label for="loanAmount">Valor do Financiamento:</label>
+                <input type="number" id="loanAmount" required>
+        
+                <label for="interestRate">Taxa de Juros (% ao ano):</label>
+                <input type="number" id="interestRate" step="0.01" value="1.49" readonly>
+        
+                <label for="loanTerm">Prazo (em meses):</label>
+                <input type="number" id="loanTerm" required>
+
+        
+                <label for="downPayment">Entrada:</label>
+                <input type="number" id="downPayment" min="2000" required>
+
+        
+                <input id="calcul" type="button" value="Calcular" onclick="calculateLoan()">
+            </form>
+        <div id="resul">
+            <h2 id="TextoResultado">Resultado:</h2>
+            <p>Mensalidade: <span id="monthlyPayment"></span></p>
+            <p>Total a ser pago: <span id="totalPayment"></span></p>
+        </div>
+        </aside>
+        <article>
+            <img src="https://static.wixstatic.com/media/be65a1_0c3f3645c6384b1ba71a63799511cb63~mv2.png/v1/fill/w_560,h_284,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/motos.png" alt="motona" srcset="">
+        </article>
+    </main>
+    <script src="JS/financiamento.js"></script>
+</body>
+</html>
