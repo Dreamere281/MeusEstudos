@@ -21,12 +21,12 @@ public class DesafioContaPoupanca {
   }
 }
 
-class ContaBancaria {
+class ContaBancaria1 {
   protected int numero;
   protected String titular;
   protected double saldo;
 
-  public ContaBancaria(int numero, String titular, double saldo) {
+  public ContaBancaria1(int numero, String titular, double saldo) {
     this.numero = numero;
     this.titular = titular;
     this.saldo = saldo;
@@ -40,7 +40,7 @@ class ContaBancaria {
   }
 }
 
-class ContaPoupanca extends ContaBancaria {
+class ContaPoupanca extends ContaBancaria1 {
   private double taxaJuros;
 
   public ContaPoupanca(int numero, String titular, double saldo, double taxaJuros) {
